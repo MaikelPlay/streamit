@@ -1,0 +1,163 @@
+/* @import './assets/fonts/fonts.css'; */
+
+/* PAGE HEADER Section ========================================== */
+
+.wrapper-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-menu {
+  display: flex;
+  flex-direction: row;
+}
+
+/* LATEST MOVIES Section ======================================== */
+
+.section-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper-movies {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+}
+
+.box-movie {
+  position:relative;
+  flex-shrink: 1;
+}
+
+.box-movie + .box-movie {
+  margin-left: 25px;
+}
+
+.box-movie .movie-data {
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  top:0;
+  bottom:0;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.box-movie .movie-info {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  padding: 20px, 0;
+
+}
+
+.box-movie .movie-social {
+  display: flex;
+  flex-direction:column;
+  justify-content: space-around;
+  padding: 10px, 0;
+}
+
+/* SUGGESTED Section ============================================ */
+
+#suggested {
+  background-attachment: fixed; /*fondo fijo debajo cuando se hace scroll*/
+}
+
+.suggested-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-shrink: 1; 
+}
+.suggested-data {
+  width: 33.333%;
+}
+
+.suggested-image {
+  width: 66.666%;
+  margin-left: 30px;
+}
+
+/* PAGE FOOTER Section ========================================== */
+
+.wrapper-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.widget-menu {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.widget-social {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  width: 25%;
+  margin-left: 40px;
+  justify-content: space-between;
+}
+
+.widget-social .social-icons {
+  display: flex;
+  flex-direction: row;
+  height: 64px;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.widget-social .social-link:first-child,
+.widget-social .social-link:last-child {
+  align-self: flex-start;
+  
+}
+
+.widget-social .social-link:first-child {
+  order: 3;
+}
+
+.widget-social .social-link:last-child {
+  order: -1; 
+}
+
+.widget-apps {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin-left: 40px;
+  justify-content: space-between;
+}
+
+.widget-apps .apps-list {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.widget-apps .app-link:last-child {
+  margin-left: 15px;
+}
+
+/* #SCROLLUP ==================================================== */
+
+#scrollUp {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 25px;
+  bottom:25px;
+}

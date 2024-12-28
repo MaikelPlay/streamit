@@ -1,0 +1,190 @@
+/* RESET -------------------------------------------------------- */
+
+* {
+  margin: 0;
+  border: none;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding-top: 72px;
+  line-height: 1.5;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;  
+  background-color: #141414;
+  color: #fff;
+}
+ul {
+  list-style: none;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.2s ease 0s;
+}
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* "SISTEMA DE REJILLA" ----------------------------------------- */
+
+.row {
+  width: 1350px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* UTILIDADES --------------------------------------------------- */
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  text-align: center;
+}
+.btn-primary {
+  border-color: red;
+  background-color: red;
+}
+.btn-primary:hover {
+ color: #141414;
+}
+.badge {
+  display: inline-block;
+  margin-right: 10px;
+  border-radius: 3px;        
+  padding: 2px 6px 2px;
+  background-color: #878787;
+}
+
+/* HEADER ------------------------------------------------------- */
+
+#page-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  border-bottom: 1px solid rgba(255, 0, 0, .5);
+  background-color: #080808;
+}
+.header-logo .site-link {
+  display: block;
+  padding-top: 15px;
+	padding-bottom: 15px;
+}
+.header-logo .page-logo {
+  width: 160px;
+}
+.header-menu .header-link {
+  padding: 10px 15px;
+}
+.header-menu .header-link:hover {
+  background-color: red;
+}
+
+/* LATEST MOVIES ------------------------------------------------ */
+
+#latest-movies {
+  padding-top: 44px;
+  padding-bottom: 80px;
+}
+.section-header {
+  margin-bottom: 20px;
+}
+.section-header .link-view:hover {
+  color: red;
+}
+.box-movie .movie-image {
+  opacity: .5;
+  transition: all ease .4s;
+}
+.box-movie:hover .movie-image {
+  opacity: .9;
+}
+.movie-social .movie-link {
+  border: 3px solid red;
+  border-radius: 50%;
+  text-align: center;
+  transition: all ease .2s;
+}
+.movie-social .movie-link:hover {
+  border: 3px solid #fff;
+}
+.movie-social .movie-icon {
+  padding: 10px;
+}
+
+/* SUGGESTED ---------------------------------------------------- */
+
+#suggested {
+  border-top: 2px solid #030303;
+  border-bottom: 2px solid #030303;
+  background-image: url(./img/suggested.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.wrapper-suggested {
+  padding: 48px 0;
+  background-color: rgba(0, 0, 0, 0.8); 
+}
+.suggested-data .movie-image {
+  margin-bottom: 32px;
+}
+.suggested-data .movie-time {
+  margin-bottom: 15px;
+}
+.suggested-data .movie-text {
+  margin-bottom: 24px;
+}
+
+/* FOOTER ------------------------------------------------------- */
+
+#page-footer {
+  padding: 48px 0;
+}
+.footer-title {
+  margin-bottom: 20px;
+}
+.footer-menu .footer-link {
+  margin-right: 15px;
+  color: red;
+}
+.footer-menu .footer-link:hover {
+  color: #878787;
+}
+.copyright {
+  font-size: 13.3px;
+}
+.widget-social .social-link {
+  width: 48px;
+  height: 48px;
+  padding: 12px;
+  border-radius: 50%;
+  background-color: #333;
+  text-align: center;
+}
+.widget-social .social-link:hover {
+  background-color: red;
+}
+
+#scrollUp {
+  width: 40px;
+  height: 40px;
+  border: 2px solid red;
+  border-radius: 50%;
+  background-color: red;
+  font-size: 20px;
+  color: #fff;
+  z-index: 90;
+}
+
+#scrollUp:hover {
+  border: 2px solid red;
+  background-color: #080808;
+  color: red;
+}
